@@ -21,7 +21,7 @@ main = hakyll $ do
         compile copyFileCompiler
 
     -- Copy images
-    match "images/*" $ do
+    match "images/**" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -80,6 +80,7 @@ myPandocOptions :: WriterOptions
 myPandocOptions = defaultHakyllWriterOptions{ writerSectionDivs = True,
                                 writerStandalone = True,
                                 writerTableOfContents = True,
+                                writerHighlight = True,
                                 writerHtml5 = False,
                                 writerTemplate = "<div class=\"sidebar\">\n$toc$\n</div>\n<div class=\"content body\">\n$body$\n</div>"}
 

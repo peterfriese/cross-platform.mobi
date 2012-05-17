@@ -159,7 +159,7 @@ table {
   -moz-box-shadow: inset 0px 0px 8px #999;
   -webkit-box-shadow: inset 0px 0px 8px #999;
   box-shadow: inset 0px 0px 8px #999;
-  background: #F6f6F6 url(../../image/bg/base.png) repeat 0 0;
+  background: #F6f6F6 url(/images/bg/base.png) repeat 0 0;
 }
 
 th {
@@ -781,7 +781,7 @@ pre {
 /* prevent wrapping of code tags */
 
 code {
-	white-space: nowrap;
+	white-space: wrap;
 }
 
 .aside {

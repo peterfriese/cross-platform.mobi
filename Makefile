@@ -27,7 +27,7 @@ preview: make
 
 deploy: build
 	@echo "Deploying as $(NAME)..."
-	@rsync $(DEPLOY_OPTIONS) _site/ $(SERVER):$(DEPLOY_PATH)/
+	@rsync $(DEPLOY_OPTIONS) _site/ $(USERNAME)@$(SERVER):$(DEPLOY_PATH)/
 
 deploy_dev: build
 	@echo "Deploying as $(DEV_NAME)..."

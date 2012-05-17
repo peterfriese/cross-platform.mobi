@@ -2,12 +2,12 @@
 title: Overview
 author: Peter Friese
 date: May 15th, 2012
-category: Introduction
+category: Overview
 ---
 
 Mobile development is a hot topic these days. While some might argue that it is just a hype, I firmly believe mobile is the future. Our lives have become more mobile and - to a certain degree - more flexible. Smart phones and the near ubiquitous availability of the internet (not to be confused with 'the mobile web') have contributed largely to this effect.
 
-Reaching as many users as possible has become more and more important not only for large enterprises but also for the many startups which spring up all around us.
+> Reaching as many users as possible has become more and more important not only for large enterprises but also for the many startups which spring up all around us.
 
 It doesn't come as a big surprise there are so many approaches and solutions for developing cross-platform mobile applications. The number of mobile platforms you have to support in order to reach a significant number of people still is prohibitive for implementing native applications by hand for all of these platforms - at least that's what most people think. Later, we'll have to discuss whether this is true in all cases.
 
