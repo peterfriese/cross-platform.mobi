@@ -23,11 +23,8 @@ At the time of this writing, using the SDK to write and deploy applications is f
 
 After signing up and downloading Titanium Studio (which includes Titanium SDK), the installation wizard will guide you through the process of installing Titanium Studio and any other dependencies, most notably the Android SDK and the iOS SDK.
 
-**TODO:** add detailed installation and config instructions later.
-
 ## Getting started
 
-A short intro to what we're going to build!
 
 ### Creating a New Titanium Project
 
@@ -68,27 +65,3 @@ Wasn't that easy? Let's try running the app on Android. Again, drop down the _la
 With a few simple steps, you created a cross-platform mobile application with Appcelerator Titanium and you didn't even need to change anything to run this app on the two supported platforms.
 
 In the next section, we'll have a closer look at the app structure as we add a few UI elements to enhance the app and make it a little bit more interesting (and personal).
-
-### Enhancing the App	
-
-* add a textfield and a button
-* add code to compose a personal message to the user
-
-### Running the App on Your Device
-
-* Run
-	* on iOS device
-	* on Android device
-
-
-## Writing a Simple Data-Driven App
-
-This will be the nucleus for the MusiXplorer app. 
-
-**TODO:** Should I dedicate a separate chapter for the design of the app and some sketching? If so, this should be referenced here.
-
-**TODO:** find out about best practices of how to structure a Titanium app
-
-* Create a simple list view for the artists
-* Search field to enter artist name
-* Connect to iTunes service
