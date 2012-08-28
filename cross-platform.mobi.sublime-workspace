@@ -1,0 +1,272 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"About",
+				"About"
+			],
+			[
+				"Find",
+				"Preferences: File Settings - Default"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-24.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-23.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-22.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/03 Errands.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Tips & Tricks.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Tasks.sublime-workspace",
+		"/Users/peterfriese/Dropbox/Tasks/Projects.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/media.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/App Ideas.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-21.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-20.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-15.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-16.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-14.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-13.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-06.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-07/2012-07-31.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-07/2012-07-27.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Aktuelle Planung.txt",
+		"/Users/peterfriese/Dropbox/Tasks/Blog.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-07/2012-07-25.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/02 Todayy.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/02 Today.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/00 Current.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/01 Backlog.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Check Out.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Finanzen.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Steuer 2011.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-07/2012-07-23.taskpaper",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/peterfriese/Dropbox/Tasks/Scratchpad.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Test.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Test.md",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/peterfriese/Dropbox/Tasks/Tasks.sublime-project",
+		"/Users/peterfriese/Desktop/Article- EclipseMagazin- Cross-Platform Mobile Development with Eclipse - Artikeltext.tex",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-28.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-26.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-25.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-24.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-23.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-22.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-06.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-21.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-20.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-19.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-17.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-18.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-16.taskpaper",
+		"/Users/peterfriese/Desktop/untitled.html",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-13.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-15.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-14.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-09.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-12.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-11.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-10.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-08.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-07.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-05.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-04.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-02.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-03/2012-03-01.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-29.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-20.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-21.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-22.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-23.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-24.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-27.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-28.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/01 Inbox.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/2012-02/2012-02-17.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Media.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Conferences.taskpaper",
+		"/Users/peterfriese/Dropbox/Tasks/Excursions.taskpaper",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/peterfriese/Library/Application Support/Sublime Text 2/Packages/Default/Base File.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n	- Backautomat fotografieren / Ebay\n	- T-Mobile: jetzt schon ein neues iPhone?\n	- Applause Website ähnlich zu Meteor\n		- Hintergrund mit selbstgezeichneten Leuten a la Haring aber natürlich ein wenig anders, zwecks Copyright\n\n	- Zimmer aufräumen\n	- Kuscheltier\n	- Lektüre (keine Bücherei)\n	- Jonas: Einladungen\n	. iPods aufladen",
+			"la",
+			"auf",
+			"Lanyrd",
+			"\n",
+			"\n	",
+			"	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"toda",
+				"02 Today.taskpaper"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"Kno",
+				"/Users/peterfriese/Dropbox/Knowledge/Knowledge.sublime-project"
+			],
+			[
+				"",
+				"/Users/peterfriese/Dropbox/Tasks/Tasks.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true
+}
