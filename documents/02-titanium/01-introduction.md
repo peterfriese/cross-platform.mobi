@@ -68,27 +68,3 @@ Wasn't that easy? Let's try running the app on Android. Again, drop down the _la
 With a few simple steps, you created a cross-platform mobile application with Appcelerator Titanium and you didn't even need to change anything to run this app on the two supported platforms.
 
 In the next section, we'll have a closer look at the app structure as we add a few UI elements to enhance the app and make it a little bit more interesting (and personal).
-
-### Enhancing the App	
-
-* add a textfield and a button
-* add code to compose a personal message to the user
-
-### Running the App on Your Device
-
-* Run
-	* on iOS device
-	* on Android device
-
-
-## Writing a Simple Data-Driven App
-
-This will be the nucleus for the MusiXplorer app. 
-
-**TODO:** Should I dedicate a separate chapter for the design of the app and some sketching? If so, this should be referenced here.
-
-**TODO:** find out about best practices of how to structure a Titanium app
-
-* Create a simple list view for the artists
-* Search field to enter artist name
-* Connect to iTunes service
