@@ -36,7 +36,7 @@ Most importantly, I will try to make sure to discuss at least one framework / to
 
 The remainder of this post will serve as a high-level discussion of these architectural archetypes.
 
-### Native ###
+## Native
 
 To better appreciate the various cross-platform approaches, let's first have a look at how native apps are built. In this series, we will concentrate on non-game apps that display data that has been loaded from a backend (either a public web service or an enterprise backend).
 
@@ -67,7 +67,10 @@ The consequences of this architecture are:
 
 Now that we've got this out of the way, let's have a look at the options for building cross-platform mobile applications.
 
-### Classic website with responsive design ###
+
+## Web-based approaches
+
+### Classic website with responsive design
 
 Although the web originally had been invented by Tim Berners-Lee as a means to publish and link scientific articles and information, it quickly became a platform for applications of various forms. Starting with e-commerce and webshops, we have grown used to using applications on the web to accomplish tasks which had been the domain of desktop applications not long ago. Writing emails and letters, calculating your mortgage and even painting pictures - these all are things you'd never dreamt possible in a web browser just a few years ago but which are possible now thanks to a combination of technolgies like HTML, CSS and JavaScript which is commonly (and not quite correctly) known as HTML 5.
 
@@ -116,26 +119,10 @@ The consequences of this approach are:
 * Performance usually is sub-par
 * No access to most of the hardware sensors and APIs such as the address book, calendar, etc.
 
-### Apps that act as a display engine ###
 
+## Hybrid approaches
 
-If your applications follow a very homogenous structure, it might make sense to define the structure and behaviour of the application in a central system and let the frontend application render the layout as specified by this backend system. This makes sense especially for enterprise systems such as SAP where all of the application logic resides in the backend and the frontend serves just as a display engine.
-
-A number of proprietary solutions exist that only work in conjunction with specific backend systems, but there are also frameworks that are more flexible, such as RAPmobile.
-
-??? WHat about MobileRoadie ?? Does it fall into this category as well?
-
-Here is an illustration of this architecture:
-
-The consequences of this architecture are:
-
-* You only have to write the backend once
-* Usually, you do not have to write a frontend application, as the vendors of these solutions provide you with a "player" application that your users start in order to connect to your backend. Some solutions provide means to customize this player application and distribute branded versions of the player which then will directly connect to your backend system.
-* Most player apps are native apps so you'll get decent performance
-* Due to the very nature of this approach, the applications you can build with this approach are somewhat limited with respect to their scope
-
-
-### Hybrid apps ###
+### Hybrid apps
 
 If you are comfortable with either a web-based approach (using a frontend-library such as Bootstrap or Foundation) or a widget toolkit based approach but need access to the hardware sensors of your device or advanced APIs such as the calendar or the phone book, hybrid approaches might be a worthwhile option.
 
@@ -177,7 +164,9 @@ The consequences of this approach are:
 * Not all relevant platforms are supported as of now
 
 
-### Cross-compiled apps ###
+## Cross-platform native approaches
+
+### Cross-compiled apps
 
 Instead of using an embedded web browser or an interpreter to interprete and execute your application code, cross-compilation takes code you write in one language and translates it to code that runs on the target platform. To appreciate this approach, please recall that mobile applications running on the various platforms originally need to be written in very different languages:
 
@@ -222,3 +211,21 @@ The consequences of this approach are:
 * Native apps, native performance
 * Not very mainstream approach
 * Only suitable for apps that fall into the category of apps supported by the DSL. Otherwise, you'll have to enhance the DSL and the code generator
+
+### Apps that act as a display engine ###
+
+
+If your applications follow a very homogenous structure, it might make sense to define the structure and behaviour of the application in a central system and let the frontend application render the layout as specified by this backend system. This makes sense especially for enterprise systems such as SAP where all of the application logic resides in the backend and the frontend serves just as a display engine.
+
+A number of proprietary solutions exist that only work in conjunction with specific backend systems, but there are also frameworks that are more flexible, such as RAPmobile.
+
+??? WHat about MobileRoadie ?? Does it fall into this category as well?
+
+Here is an illustration of this architecture:
+
+The consequences of this architecture are:
+
+* You only have to write the backend once
+* Usually, you do not have to write a frontend application, as the vendors of these solutions provide you with a "player" application that your users start in order to connect to your backend. Some solutions provide means to customize this player application and distribute branded versions of the player which then will directly connect to your backend system.
+* Most player apps are native apps so you'll get decent performance
+* Due to the very nature of this approach, the applications you can build with this approach are somewhat limited with respect to their scope
