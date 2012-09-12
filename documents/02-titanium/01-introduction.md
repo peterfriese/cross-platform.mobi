@@ -69,10 +69,131 @@ With a few simple steps, you created a cross-platform mobile application with Ap
 
 In the next section, we'll have a closer look at the app structure as we add a few UI elements to enhance the app and make it a little bit more interesting (and personal).
 
-### Enhancing the App	
+### Structure of the App
 
-* add a textfield and a button
-* add code to compose a personal message to the user
+Before we go on enhancing the application, we should take a look at what we've got so far and familiarize ourselves with the project layout.
+
+The contents of your project are shown on the _App Explorer_. This view usually resides on the left-hand side of Titanium Studio[^fn-reset-prespective].
+
+[^fn-reset-prespective]: Titanium Studio is based on Eclipse and makes use of so-called _Perspectives_. A perspective is just a fancy word for "UI layout". Should you need to reset your window layout, just open the perspective context menu by clicking on the perspective title in the upper right hand corner of the IDE window and select _Reset_.
+
+Despite the fact we just created a very simple "Hello World" application, the project already contains quite a number of files and folders. Let's look at them in turn:
+
+![Hello World project structure](/images/titanium/titanium_helloworld_projectstructure.png)
+
+* __i18n__ - This folder contains localized resources. If you're planning to sell your app in different regions of the world, you should use this to translate the texts you display in your app.
+* __Resources__ - Contains all images and source code files that will later make up your application.
+	* __android__ - Images that are used just for the Android version of your app.
+	* __iphone__ - Images that are used just for the iPhone and iPad version of your app.
+	* __mobileweb__ - Images that are used just for the mobile web version of your app.
+	* __ui__ - Contains the source code files for your app
+		* __common__ - UI elements that are shared for all platforms.
+			* __FirstView.js__ - This file contains the view that displays "Hello World"!
+		* __handheld__ - Special UI layouts for handheld devices such as smart phones.
+		* __tablet__ - Special UI layouts for tablet devices.
+	* __app.js__ - The main entry point for your app. It all starts here.
+	* __KS_nav_ui.png__ - Icon 
+	* __KS_nav_views.png__ - Icon
+* __tiapp.xml__ - Your application's manifest file. It contains iimportant information about your project.
+
+### Enhancing the App
+
+Let's enhance the app so it becomes slightly more exciting. Smartphones are personal devices, probably even more so than regular PCs - so each self-respecting "Hello World" app should greet it's user properly. Let's add an input field and a button to allow the user to input their name and be greeted by the app with their name.
+
+As you might have guessed, in order to enhance the UI, you have to change code in _Resources/ui/common/FirstView.js_. Open _FirstView.js_ and you'll see the code that displays "Hello World":
+
+	//FirstView Component Constructor
+	function FirstView() {
+		//create object instance, a parasitic subclass of Observable
+		var self = Ti.UI.createView();
+		
+		//label using localization-ready strings from <app dir>/i18n/en/strings.xml
+		var label = Ti.UI.createLabel({
+			color:'#000000',
+			text:String.format(L('welcome'),'Titanium'),
+			height:'auto',
+			width:'auto'
+		});
+		self.add(label);
+		
+		//Add behavior for UI
+		label.addEventListener('click', function(e) {
+			alert(e.source.text);
+		});
+		
+		return self;
+	}
+
+	module.exports = FirstView;
+
+Let's first add an input field so the user can enter their name. Titanium supports two different input fields, one for single-line input ([Titanium.UI.TextField](http://docs.appcelerator.com/titanium/2.1/index.html#!/api/Titanium.UI.TextField)), and one for multi-line input ([Titanium.UI.TextArea](http://docs.appcelerator.com/titanium/2.1/index.html#!/api/Titanium.UI.TextArea)). A single-line input field is just right for our purposes.
+
+UI elements in Titanium can be created using one of the many factory methods of [Titanium.UI](http://docs.appcelerator.com/titanium/2.1/index.html#!/api/Titanium.UI-method-createTextArea). These factory methods usually look like this:
+
+	Ti.UI.create<NameOfTheWidgetYouWantToUse>(Dictionary parameters)
+
+and return an instance of the respective widget. The parameters dictionary is optional and lets you specify the values for the attributes of the widget. To create a new single-line text input, add the following code directly above the code that produces the label:
+
+		var textField = Ti.UI.createTextField({
+		    borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		    hintText: 'Enter your name, please',
+		    top: 20,
+		    width: 'auto', 
+		    height: 'auto'
+		});
+		self.add(textField);
+
+Next, let's create a simple button that the user can click to have the app greet him. Add the following code directly below the code you just inserted:
+
+		var button = Ti.UI.createButton({
+			title: 'Greet',
+			top: 50,
+		    width : 'auto', 
+		    height : 'auto'		
+		});
+		self.add(button);
+
+With that, we've got our UI elements in place and just need to add some code that produces the greeting. Titanium uses a UI event mechanism that is very similar to what you might know from event-based programming in your browser. Add the following code directly after the code you just inserted:
+
+		button.addEventListener('click', function(e) {
+			label.text = 'Hello, ' + textField.value
+		});
+
+This will add an event listener to the _click_ event of our button. Whenever the user taps on the button, the code will then read what the user entered into the text field, append it to the text "Hello, " and write the result into the label.
+
+You're probably eager to try the app, so go ahead and run it on the iOS Simulator and also on the Android Emulator. By now, you should know how to do this.
+
+
+### A Word About Layout
+
+If you've run the app on the iPhone Simulator and the Android Emulator, you probably noticed that the UI layout looks a little broken on Android. This is due to the fact we're using an absolute layout. Unfortunately, the iPhone and Android have different screen sizes and resolutions which makes it hard (if not at all impossible) to get the UI layout right by just using an absolute layout.
+
+Fortunately, Titanium comes with a number of other layout managers that allow us to create UIs that look good on all platforms. Let's fix the Hello World app.
+
+Open _FirstView.js_ and change this line:
+
+		var self = Ti.UI.createView();
+
+to:
+
+		var self = Ti.UI.createView({
+			layout: 'vertical'
+		});
+
+In _vertical_ layout, all positioning information is interpreted in relation to the preceding elements. That is, the button will now be offset 50 pixels from the text field's bottom. as 50 pixels is a little too much, let's set the button's offset to 20:
+
+		var button = Ti.UI.createButton({
+			title: 'Greet',
+			top: 20,
+		    width : 'auto', 
+		    height : 'auto'		
+		});
+		self.add(button);
+
+Now, the UI should look good on both the iPhone and Android.
+
+Learn more about UI element positioning in the documentation about [Titanium.UI.View](http://docs.appcelerator.com/titanium/2.1/index.html#!/api/Titanium.UI.View-property-layout) and [Transitioning to the New UI Layout System](http://docs.appcelerator.com/titanium/2.1/index.html#!/guide/Transitioning_to_the_New_UI_Layout_System).
+
 
 ### Running the App on Your Device
 
