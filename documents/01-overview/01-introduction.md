@@ -219,8 +219,6 @@ If your applications follow a very homogenous structure, it might make sense to 
 
 A number of proprietary solutions exist that only work in conjunction with specific backend systems, but there are also frameworks that are more flexible, such as RAPmobile.
 
-??? WHat about MobileRoadie ?? Does it fall into this category as well?
-
 Here is an illustration of this architecture:
 
 The consequences of this architecture are:
