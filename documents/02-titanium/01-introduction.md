@@ -23,11 +23,8 @@ At the time of this writing, using the SDK to write and deploy applications is f
 
 After signing up and downloading Titanium Studio (which includes Titanium SDK), the installation wizard will guide you through the process of installing Titanium Studio and any other dependencies, most notably the Android SDK and the iOS SDK.
 
-**TODO:** add detailed installation and config instructions later.
-
 ## Getting started
 
-A short intro to what we're going to build!
 
 ### Creating a New Titanium Project
 
