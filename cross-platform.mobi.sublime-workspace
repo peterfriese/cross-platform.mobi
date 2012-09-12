@@ -7,6 +7,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "documents/02-titanium/01-introduction.md",
+			"settings":
+			{
+				"buffer_size": 5426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "documents/01-overview/01-introduction.md",
+			"settings":
+			{
+				"buffer_size": 18538,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -72,6 +96,14 @@
 	},
 	"file_history":
 	[
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/images/titanium/titanium_helloworld_emulator.png",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/images/titanium/titanium_helloworld_simulator.png",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/images/titanium/titanium_launch_on_iphone_simulator.png",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/images/titanium/titanium_helloworld_projectstructure.png",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/documents/01-overview/01-introduction.md",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/images/titanium/titanium_studio_welcome.png",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/cross-platform.mobi.sublime-workspace",
+		"/Users/peterfriese/Projects/peterfriese.de/cross-platform.mobi/untitled.sublime-project",
 		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-24.taskpaper",
 		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-23.taskpaper",
 		"/Users/peterfriese/Dropbox/Tasks/2012-08/2012-08-22.taskpaper",
@@ -156,7 +188,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -170,6 +202,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"??",
+			"about",
 			"\n	- Backautomat fotografieren / Ebay\n	- T-Mobile: jetzt schon ein neues iPhone?\n	- Applause Website ähnlich zu Meteor\n		- Hintergrund mit selbstgezeichneten Leuten a la Haring aber natürlich ein wenig anders, zwecks Copyright\n\n	- Zimmer aufräumen\n	- Kuscheltier\n	- Lektüre (keine Bücherei)\n	- Jonas: Einladungen\n	. iPods aufladen",
 			"la",
 			"auf",
@@ -196,6 +230,84 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "documents/02-titanium/01-introduction.md",
+					"settings":
+					{
+						"buffer_size": 5426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2374,
+								2374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1692,
+								1692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "documents/01-overview/01-introduction.md",
+					"settings":
+					{
+						"buffer_size": 18538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
