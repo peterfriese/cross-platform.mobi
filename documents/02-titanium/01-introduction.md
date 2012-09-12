@@ -190,23 +190,3 @@ In _vertical_ layout, all positioning information is interpreted in relation to 
 Now, the UI should look good on both the iPhone and Android.
 
 Learn more about UI element positioning in the documentation about [Titanium.UI.View](http://docs.appcelerator.com/titanium/2.1/index.html#!/api/Titanium.UI.View-property-layout) and [Transitioning to the New UI Layout System](http://docs.appcelerator.com/titanium/2.1/index.html#!/guide/Transitioning_to_the_New_UI_Layout_System).
-
-
-### Running the App on Your Device
-
-* Run
-	* on iOS device
-	* on Android device
-
-
-## Writing a Simple Data-Driven App
-
-This will be the nucleus for the MusiXplorer app. 
-
-**TODO:** Should I dedicate a separate chapter for the design of the app and some sketching? If so, this should be referenced here.
-
-**TODO:** find out about best practices of how to structure a Titanium app
-
-* Create a simple list view for the artists
-* Search field to enter artist name
-* Connect to iTunes service
